@@ -26,7 +26,7 @@
                     <li><a href="#" class="logo"><img src="images/logo.png" height="30px" alt="" /></a></li>
                     <li><a onclick="window.location='index.html'"> 新闻 </a></li>
                     <li><a onclick="window.location='people.html'"> 成员 </a></li>
-                    <li><a onclick="window.location='publications.html'"> 出版物 </a></li>
+                    <li><a onclick="window.location='publications.html'"> 发表论文 </a></li>
                     <li><a onclick="window.location='resources.html'"> 资源 </a></li>
                     <li><a onclick="window.location='index.html#contact'"> 联系方式 </a></li>
                 </ul>
@@ -218,35 +218,6 @@
                 </div>
                 <!-- End .project -->
 				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" height=393 width=0 />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h4>The Effects of Multiple Query Evidences on Social Image Retrieval Systems</h4>
-                        <h5>Zhiyong Cheng, Jialie Shen, Haiyan Miao</h5>
-                        <p><b>Abstract</b>: System performance assessment and comparison are fundamental for large-scale image search engine development. This article documents a set of comprehensive empirical studies to explore the effects of multiple query evidences on large-scale social image search. The search performance based on the social tags, different kinds of visual features and their combinations are systematically studied and analyzed. To quantify the visual query complexity, a novel quantitative metric is proposed and applied to assess the influences of different visual queries based on their complexity levels. Besides, we also study the effects of automatic text query expansion with social tags using a pseudo relevance feedback method on the retrieval performance. Our analysis of experimental results shows a few key research findings: (1) social tag-based retrieval methods can achieve much better results than content-based retrieval methods; (2) a combination of textual and visual features can significantly and consistently improve the search performance; (3) the complexity of image queries has a strong correlation with retrieval results’ quality—more complex queries lead to poorer search effectiveness; and (4) query expansion based on social tags frequently causes search topic drift and consequently leads to performance degradation.</p>
-                        [<a href="https://link.springer.com/article/10.1007/s00530-014-0432-7">PDF</a>]
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" height=352 width=0 />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h4>On Robust Image Spam Filtering via Comprehensive Visual Modeling</h4>
-                        <h5>Jialie Shen, Robert H. Deng, Zhiyong Cheng, Liqiang Nie, Shuicheng Yan</h5>
-                        <p><b>Abstract</b>: The Internet has brought about fundamental changes in the way peoples generate and exchange media information. Over the last decade, unsolicited message images (image spams) have become one of the most serious problems for Internet service providers (ISPs), business firms and general end users. In this paper, we report a novel system called RoBoTs (Robust BoosTrap based spam detector) to support accurate and robust image spam filtering. The system is developed based on multiple visual properties extracted from different levels of granularity, aiming to capture more discriminative contents for effective spam image identification. In addition, a resampling based learning framework is developed to effectively integrate random forest and linear discriminative analysis (LDA) to generate comprehensive signature of spam images. It can facilitate more accurate and robust spam classification process with very limited amount of initial training examples. Using three public available test collections, the proposed system is empirically compared with the state-of-the-art techniques. Our results demonstrate its significantly higher performance from different perspectives.</p>
-                        [<a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320315000874">PDF</a>]
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
 				
 				<div class="project shadow-large">
                     <div class="project-image">
@@ -282,70 +253,6 @@
 				
 				<div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" height=372 width=0 />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h4>Multi-modal preference modeling for personalized product search</h4>
-                        <h5>Yangyang Guo, Zhiyong Cheng*, Liqiang Nie*, Xin-Shun Xu, Mohan Kankanhalli</h5>
-                        <p><b>Abstract</b>: The visual preference of users for products has been largely ignoredby the existing product search methods. In this work, we proposea multi-modal personalized product search method, which aimsto search products which not only are relevant to the submittedtextual query, but also match the user preferences from both textualand visual modalities. To achieve the goal, we first leverage thealso_viewandbuy_after_viewingproducts to construct the visualand textual latent spaces, which are expected to preserve the visualsimilarity and semantic similarity of products, respectively. Wethen propose a translation-based search model (TranSearch) to 1)learn a multi-modal latent space based on the pre-trained visual andtextual latent spaces; and 2) map the users, queries and productsinto this space for direct matching. TheTranSearchmodel is trainedbased on a comparative learning strategy, such that the multi-modallatent space is oriented to personalized ranking in the training stage.Experiments have been conducted on real-world datasets to validatethe effectiveness of our method. The results demonstrate that ourmethod outperforms the state-of-the-art method by a large margin. </p>
-                        [<a href="https://www.dropbox.com/s/kx9cnk8tgq7du73/mm2018_personalized_product_search.pdf?dl=0">PDF</a>][<a href="https://github.com/guoyang9/TranSearch">CODE</a>]
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" height=352 width=0 />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h4>A^3NCF: An Adaptive Aspect Attention Model for Rating Prediction</h4>
-                        <h5>Zhiyong Cheng, Ying Ding, Xiangnan He, Lei Zhu, Xuemeng Song, Mohan Kankanhalli</h5>
-                        <p><b>Abstract</b>: Current recommender systems consider the variousaspects of items for making accurate recommenda-tions. Different users place different importance tothese aspects which can be thought of as a pref-erence/attention weight vector. Most existing rec-ommender systems assume that for an individual,this vector is the same for all items. However, thisassumption is often invalid, especially when con-sidering a user’s interactions with items of diversecharacteristics. To tackle this problem, in this pa-per, we develop a novel aspect-aware recommendermodel named A3NCF, which can capture the vary-ing aspect attentions that a user pays to differentitems. Specifically, we design a new topic modelto extract user preferences and item characteristicsfrom review texts. They are then used to 1) guidethe representation learning of users and items, and2) capture a user’s special attention on each as-pect of the targeted item with an attention network.Through extensive experiments on several large-scale datasets, we demonstrate that our model out-performs the state-of-the-art review-aware recom-mender systems in the rating prediction task. </p>
-                        [<a href="https://www.dropbox.com/s/2uqzct1tha6ss51/ijcai18_cheng.pdf?dl=0">PDF</a>][<a href="https://github.com/hustlingchen/A3NCF">CODE</a>]
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" height=455 width=0 />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h4>Aspect-Aware Latent Factor Model:  Rating Prediction with Ratings and Reviews</h4>
-                        <h5>Zhiyong Cheng, Ying Ding, Lei Zhu, Mohan Kankanhalli</h5>
-                        <p><b>Abstract</b>: Although latent factor models (e.g., matrix factorization) achieve good accuracy in rating prediction, they suffer from several problems including cold-start, non-transparency, and suboptimal recommendation for local users or items. In this paper, we employ textual review information with ratings to tackle these limitations. Firstly, we apply a proposed aspect-aware topic model (ATM) on the review text to model user preferences and item features from different aspects, and estimate the aspect importance of a user towards an item. The aspect importance is then integrated into a novel aspect-aware latent factor model (ALFM), which learns user's and item's latent factors based on ratings. In particular, ALFM introduces a weighted matrix to associate those latent factors with the same set of aspects discovered by ATM, such that the latent factors could be used to estimate aspect ratings. Finally, the overall rating is computed via a linear combination of the aspect ratings, which are weighted by the corresponding aspect importance. To this end, our model could alleviate the data sparsity problem and gain good interpretability for recommendation. Besides, an aspect rating is weighted by an aspect importance, which is dependent on the targeted user's preferences and targeted item's features. Therefore, it is expected that the proposed method can model a user's preferences on an item more accurately for each user-item pair locally. Comprehensive experimental studies have been conducted on 19 datasets from Amazon and Yelp 2017 Challenge dataset. Results show that our method achieves significant improvement compared with strong baseline methods, especially for users with only few ratings. Moreover, our model could interpret the recommendation results in depth. </p>
-                        [<a href="https://arxiv.org/abs/1802.07938">PDF</a>][<a href="https://github.com/hustlingchen/ALFM">CODE</a>]
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" height=311 width=0 />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h4>On Effective Personalized Music Retrieval by Exploring Online User Behaviors</h4>
-                        <h5>Zhiyong Cheng, Jialie Shen, Steven Hoi</h5>
-                        <p><b>Abstract</b>: In this paper, we study the problem of personalized textbased  music retrieval which takes users’ music preferenceson songs into account via the  analysis of online listeningbehaviours and social tags. Towards the goal, a novel Dual-Layer Music Preference Topic Model (DL-MPTM) is pro-posed to construct latent music interest space and character-ize the correlations among (user, song, term).  Based on theDL-MPTM, we further develop an effective personalized mu-sic retrieval system. To evaluate the system’s performance,extensive experimental studies have been conducted overtwo test collections to compare the proposed method withthe state-of-the-art music retrieval methods. The resultsdemonstrate that our proposed method significantly out-performs those approaches in terms of personalized search accuracy. </p>
-                        [<a href="http://www.mysmu.edu/phdis2011/zy.cheng.2011/fp027-cheng.pdf">PDF</a>]
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
                         <img src="images/project.jpg" height=352 width=0 />
                     </div>
                     <!-- End .project-image -->
@@ -358,168 +265,6 @@
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
-				
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" height=311 width=0 />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h4>VenueMusic: A Venue-Aware Music Recommender System</h4>
-                        <h5>Zhiyong Cheng, Jialie Shen</h5>
-                        <p><b>Abstract</b>: Users' music preferences can be greatly influenced by their location and environment nearby. In this demonstration, we present an intelligent music recommender system, called VenueMusic, to automatically identify suitable music for various popular venues in our daily lives. VenueMusic enjoys a set of nice features: i) music concept sequence generation scheme and Location-aware Topic Model (LTM) are proposed to map the characteristics of venues and music into a latent semantic space, where suitability of music for a venue can be directly measured, ii) a smart interface enabling user to smoothly interact with VenueMusic, and iii) high quality music playlist. The demonstration will show several interesting use-cases of VenueMusic, and illustrate its superiority on recommending music based on where user presents.</p>
-                        [<a href="https://dl.acm.org/doi/10.1145/2766462.2767869">PDF</a>][<a href="http://www.mysmu.edu/phdis2011/zy.cheng.2011/venuemusic_slides.pdf">Poster</a>]
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" height=270 width=0 />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h4>Just-for-Me: An Adaptive Personalization System for Location-Aware Social Music Recommendation</h4>
-                        <h5>Zhiyong Cheng, Jialie Shen, Tao Mei</h5>
-                        <p><b>Abstract</b>: In recent years, location-aware music recommendation is increasing in popularity, as more and more users consume music on the move. In this demonstration, we present an intelligent system, called Just-for-Me, to facilitate accurate music recommendation based on where user presents. Our system is developed based on a novel probabilistic generative model, which can effectively integrate the location contexts and global music popularity trends. This approach allows us to gain more comprehensive modeling on user preference and thus significantly enhances the music recommendation performance.</p>
-                        [<a href="https://dl.acm.org/doi/10.1145/2600428.2611187">PDF</a>][<a href="http://www.mysmu.edu/phdis2011/zy.cheng.2011/just_for_me_slides.pdf">Poster</a>]
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" height=373 width=0 />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h4>Just-for-Me: An Adaptive Personalization System for Location-Aware Social Music Recommendation</h4>
-                        <h5>Zhiyong Cheng, Jialie Shen</h5>
-                        <p><b>Abstract</b>: The fast growth of online communities and increasing popularity of internet-accessing smart devices have significantly changed the way people consume and share music. As an emerging technology to facilitate effective music retrieval on the move, intelligent recommendation has been recently received great attentions in recent years. While a large amount of efforts have been invested in the field, the technology is still in its infancy. One of the major reasons for this stagnation is due to inability of the existing approaches to comprehensively take multiple kinds of contextual information into account. In the paper, we present a novel recommender system called Just-for-Me to facilitate effective social music recommendation by considering users' location related contexts as well as global music popularity trends. We also develop an unified recommendation model to integrate the contextual factors as well as music contents simultaneously. Furthermore, pseudo-observations are proposed to overcome the cold-start and sparsity problems. An extensive experimental study based on different test collections demonstrates that Just-for-Me system can significantly improve the recommendation performance at various geo-locations.</p>
-                        [<a href="https://dl.acm.org/doi/10.1145/2578726.2578751">PDF</a>]
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" height=331 width=0 />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h4>The Evolution of Research on Multimedia Travel Guide Search and Recommender Systems</h4>
-                        <h5>Junge Shen, Zhiyong Cheng, Jialie Shen, Tao Mei, and Xinbo Gao</h5>
-                        <p><b>Abstract</b>: The importance of multimedia travel guide search and recommender systems has led to a substantial amount of research spanning different computer science and information system disciplines in recent years. The five core research streams we identify here incorporate a few multimedia computing and information retrieval problems that relate to the alternative perspectives of algorithm design for optimizing search/recommendation quality and different methodological paradigms to assess system performance at large scale. They include (1) query analysis, (2) diversification based on different criteria, (3) ranking and reranking, (4) personalization and (5) evaluation. Based on a comprehensive discussion and analysis of these streams, this survey evaluates the recent major contributions to theoretical and system development, and makes some predictions about the road that lies ahead for multimedia computing and information retrieval (IR) researchers in both academia and industry world.</p>
-                        [<a href="https://link.springer.com/chapter/10.1007%2F978-3-319-04117-9_21#page-1">PDF</a>]
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" height=270 width=0 />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h4>Influence of Influential Users: An Empirical Study of Music Social Networks</h4>
-                        <h5>Jing Ren, Zhiyong Cheng, Jialie Shen, Feida Zhu</h5>
-                        <p><b>Abstract</b>: Influential user can play a crucial role in online social networks. This paper documents an empirical study aiming at exploring the effects of influential users in the context of music social network. To achieve this goal, music diffusion graph is developed to model how information propagates over network. We also propose a heuristic method to measure users' influences. Using the real data from Last. fm, our empirical test demonstrates key effects of influential users and reveals limitations of existing influence identification/characterization schemes.</p>
-                        [<a href="https://dl.acm.org/doi/10.1145/2632856.2632907">PDF</a>]
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" height=311 width=0 />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h4>Building a Large Scale Test Collection for Effective Benchmarking of Mobile Landmark Search</h4>
-                        <h5>Zhiyong Cheng, Jing Ren, Jialie Shen, Haiyan Miao</h5>
-                        <p><b>Abstract</b>: Studying and analyzing system performance is one of the fundamental factors for the related technological advancement in image retrieval. In this paper, we report the construction of a large scale test collection for facilitating robust performance evaluation of mobile landmark image search. Totally, the test collection consists of (1) 355,141 images about 128 landmarks in five cities over 3 continents from Flickr; (2) different kinds of textual features for each image, including surrounding text (e.g. tags), contextual data (e.g. geo-location and upload time), and metadata (e.g. uploader and EXIF); and (3) six types of low-level visual features. For the task of landmark image retrieval evaluation, we also conduct a series of baseline experimental studies on the search performance over different visual queries, which represent different views of a landmark.</p>
-                        [<a href="https://link.springer.com/chapter/10.1007%2F978-3-642-35728-2_4#page-1">PDF</a>]
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" height=311 width=0 />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h4>The Effects of Heterogeneous Information Combination on Large Scale Social Image Search</h4>
-                        <h5>Zhiyong Cheng, Jing Ren, Jialie Shen, Haiyan Miao</h5>
-                        <p><b>Abstract</b>: This paper documents a comprehensive empirical study of the effects of heterogeneous information combination on large scale social image search. Our goal is to investigate how various kinds of information source can contribute the improvement of the retrieval effectiveness. In particular, a linear combination has been applied to merge search results from search module based on textual and visual features. Also, we propose different weighting schemes to integrate different kinds of query evidences in a nonlinear way. A series of experiments have been conducted using two large scale social image collections. Empirical results suggest that the system based on textual features yields much more effective and reliable results comparing to one using visual information. Further, the combination of two information sources can consistently enhance the final accuracy.</p>
-                        [<a href="https://dl.acm.org/doi/10.1145/2043674.2043686">PDF</a>]
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" height=311 width=0 />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h4>Visual Query Complexity</h4>
-                        <h5>Jialie Shen, Zhiyong Cheng</h5>
-                        <p><b>Abstract</b>: As an effective technique to manage large scale image collections, content-based image retrieval (CBIR) has been received great attentions and became a very active research domain in recent years. While assessing system performance is one of the key factors for the related technological advancement, relatively little attention has been paid to model and analyze test queries. This paper documents a study on the problem of determining “visual query complexity” as a measure for predicting image retrieval performance. We propose a quantitative metric for measuring complexity of image queries for content-based image search engine. A set of experiments are carried out using IAPR TC-12 Benchmark. The results demonstrate the effectiveness of the measurement, and verify that the retrieval accuracy of a query is inversely associated with the complexity level of its visual content.</p>
-                        [<a href="https://link.springer.com/chapter/10.1007%2F978-1-4614-3501-3_44">PDF</a>]
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" height=311 width=0 />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h4>Training Binary Multilayer Neural Networks for Image Classification using Expectation Backpropagation</h4>
-                        <h5>Zhiyong Cheng, Daniel Soudry, Zexi Mao, Zhen-zhong Lan</h5>
-                        <p><b>Abstract</b>: Compared to Multilayer Neural Networks with real weights, Binary MultilayerNeural Networks (BMNNs) can be implemented more efficientlyon  dedicatedhardware. BMNNs have been demonstrated to be effective on binary classifi-cation tasks with Expectation BackPropagation (EBP) algorithm on high dimen-sional text datasets. In this paper, we investigate the capability of BMNNs usingthe EBP algorithm on multiclass image classification tasks.The performancesof binary neural networks with multiple hidden layers and different numbers ofhidden units are examined on MNIST. We also explore the effectiveness of im-age spatial filters and the dropout technique in BMNNs. Experimental results onMNIST dataset show that EBP can obtain 2.12% test error with binary weights and1.66% test error with real weights, which is comparable to the results of standardBackPropagation algorithm on fully connected MNNs. </p>
-                        [<a href="https://arxiv.org/pdf/1503.03562.pdf">PDF</a>]
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" height=311 width=0 />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h4>CMU-SMU@TRECVID 2015: Video Hyperlinking</h4>
-                        <h5>Zhiyong Cheng, Xuanchong Li, Jialie Shen, Alexander G. Hauptmann</h5>
-                        <p><b>Abstract</b>: In this report, we describe CMU-SMU’s participation in the Video Hyperlinkingtask of TRECVID 2015. We treat video hyperlinking as ad-hoc retrieval scenarioand use a variety of retrieval methods. Our experiments mainly focus on the studyof different features on the performance of video hyperlinking, including subtitle,metadata, audio and visual features, as well as the consideration of surroundingcontext. Different combination strategies are used to combine those features. Be-sides, we also attempt to categorize the queries and use different search strategiesfor different categories. Experiments results show that (1) the context does notgenerally improve results, (2) the search performance mainly rely on textual fea-tures, and the combination of audio and visual feature cannot provide improve-ments; (3) due to the lack of training examples, machine learning techniques can-not provide contributions. </p>
-                        [<a href="http://www.mysmu.edu/phdis2011/zy.cheng.2011/lnk.pdf">PDF</a>]
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-				
-				
-				
 				
 				
 
